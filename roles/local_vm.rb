@@ -1,6 +1,6 @@
 name "local_vm"
 description "This role contains all recipes for local_vm"
-run_list (
+run_list(
           "recipe[test_file]",
           "recipe[create_vhosts]",
           "recipe[stunnel]",
@@ -10,4 +10,4 @@ run_list (
           "recipe[ntp_master]",
           "recipe[scribe]",
           "recipe[rpms_repo]"
-         )
+        )
